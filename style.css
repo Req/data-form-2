@@ -1,6 +1,8 @@
 body {
     background-image: url(assets/background.jpg);
-    background-size: cover;
+    background-size: 2000px auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 img {
@@ -12,14 +14,14 @@ img {
 
 
 .div1, .div2 {
-    background-color: rgba(224, 224, 224, 0.5);
+    background-color: rgba(223, 210, 210, 0.5);
     width: 600px;
     margin: auto;
     margin-top: 50px;
 }
 
 .div1 {
-    border: 5px solid black;
+    border: 8px solid black;
     text-align: center;
 }
 
@@ -68,5 +70,6 @@ button {
 
 footer p {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 280px;
+    color: white;
 }
