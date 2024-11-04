@@ -1,0 +1,102 @@
+body {
+    background-image: url(assets/background.jpg);
+    background-size: cover;         
+    background-position: center;     
+    background-repeat: no-repeat;    
+    height: 100vh;
+  }
+
+  .image {
+
+    text-align: center;
+
+    margin-top: 3rem;
+  }
+
+.firstdiv {
+    text-align: center;
+    border: 6px solid black;
+    background-color: rgba(241, 241, 241, 0.616);
+
+    margin: 2rem 40rem;
+  }
+
+  .reservation {
+
+    text-align: center;
+    border: 3px solid black;
+    background-color: rgba(241, 241, 241, 0.616);
+
+    margin: 2rem 40rem;
+    padding-bottom: 15px;
+
+
+  }
+
+  .reservation label ,  .reservation input , .reservation button  {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+  input {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  .reservation label {
+    border: 1px solid black;
+   margin: auto ;
+   color: white;
+   background-color: rgb(75, 56, 56);
+   padding: 5px;
+   text-align: left;
+   width: 250px;
+ align-items: center;
+ margin-top: 10px;
+  }
+
+  .reservation input {
+
+    margin: auto;
+    border: 3px solid white;
+    width: 250px;
+    text-align: left;
+    padding: 3px;
+    font-size: 2rem;
+
+  }
+
+  button {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 270px;
+    padding: 20px;
+    background-color: rgb(75, 56, 56);
+    cursor: pointer;
+    color: white;
+    font-size: 3rem;
+  }
+
+  input , button {
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  p {
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 10px;
+  }
+  .footer {
+    text-align: center; 
+    margin-top: 20px; 
+   margin-bottom: 20px;
+    font-size: 14px;
+    color: #b9a7a7; 
+    padding-bottom: 20px;
+
+    
+}
